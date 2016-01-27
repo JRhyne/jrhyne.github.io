@@ -1,0 +1,22 @@
+# Site settings
+title: My Site
+name: Justin Rhyne
+email: jrhyne27@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+host: 127.0.0.1
+baseurl: ""
+# url: "https://www.github.io/jrhyne" # the base hostname & protocol for your site
+twitter_username: justinrhyne
+github_username:  jrhyne
+
+# Build settings
+markdown: kramdown
+
+# Adding Gulp for building
+exclude: ["_dev",
+            "gulpfile.js",
+            "node_modules",
+            "package.json"]
